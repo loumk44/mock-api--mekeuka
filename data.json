@@ -1,0 +1,534 @@
+{
+
+  "Profils": [
+    {
+      "id": "1",
+      "nom": "ingrid",
+      "prenom": "lou",
+      "email": "ingrid@gmail.com",
+      "adresse": "658470120",
+      "codepostal": "BP:505",
+      "etat": "etat2",
+      "pays": "belgique",
+      "ville": "douala",
+      "section": "belgique1",
+      "region": "sud"
+
+    },
+     {
+      "id": "2",
+      "nom": "ingrida",
+      "prenom": "loulou",
+      "email": "ingridal@gmail.com",
+      "adresse": "65847012",
+      "codepostal": "BP:505",
+      "etat": "etat3",
+      "pays": "belgique",
+      "ville": "douala",
+      "section": "belgique1",
+      "region": "sud"
+
+     }
+  ],
+  "cotisation":[
+    {
+    "id":"1",
+    "année_carte":"2010",
+    "numéro_unique":"2345",
+    "numéro_paiement":"4567",
+    "montant":"250",
+    "devise":"euro",
+    "date_paiement":"12 juillet",
+    "moyen_paiment":"orange money",
+    "date_début_validité":"12 juillet",
+    "date_fin_validité":"20 juillet",
+    "statut":"en attente"
+  },
+  {
+    "id":"2",
+    "année_carte":"2012",
+    "numéro_unique":"8545",
+    "numéro_paiement":"6767",
+    "montant":"1000",
+    "devise":"dollar",
+    "date_paiement":"13 juin",
+    "moyen_paiment":"western union",
+    "date_début_validité":"13juin",
+    "date_fin_validité":"17 juin",
+    "statut":"rejeté"
+  }
+  ],
+  "projet":[
+    {
+    "id":"20",
+    "created_by":"lou",
+    "nom":"marchés publiques",
+    "description":"projet portant sur des descentes au niveaux des familles afin de les apporter des vivres",
+    "date_début":"30 mai",
+    "date_fin":"12 juillet",
+    "id_quartier":"34",
+    "id_comité":"13",
+    "id_chef_projet":"2",
+    "id_assistant":"1",
+    "coût_estimé":"1.000.000 fcfa",
+    "secteur_activité":"europe",
+    "quartier_réalisation":"paris"
+  },
+  {
+    "id":"21",
+    "created_by":"antony",
+    "nom":"sos",
+    "description":"projet portant sur l'aide aux famille endellées des membres fonakeukeu",
+    "date_début":"30 juin",
+    "date_fin":"12 août",
+    "id_quartier":"36",
+    "id_comité":"14",
+    "id_chef_projet":"1",
+    "id_assistant":"2",
+    "coût_estimé":"8.000.000 fcfa",
+    "secteur_activité":"gabon",
+    "quartier_réalisation":"port gentil"
+  }
+],
+"don":[
+    {
+    "id":"104",
+    "id_utilisateur":"1",
+    "numéro_unique":"10987",
+    "numéro_paiement":"44323",
+    "montant":"500",
+    "devise":"euro",
+    "date_paiement":"2 janvier",
+    "moyen_paiement":"moneygram",
+    "created_at":"20 déçembre",
+    "updated_at":"30 janvier"
+    
+
+},
+{
+    "id":"102",
+    "id_utilisateur":"2",
+    "numéro_unique":"23467",
+    "numéro_paiement":"58734",
+    "montant":"100",
+    "devise":"dollar",
+    "date_paiement":"30juin",
+    "moyen_paiement":"werstern union",
+    "created_at":"10 avril",
+    "updated_at":"4 juillet"
+    
+
+}
+],
+"collecte":[
+    {
+        "id":"30",
+        "numéro_unique":"46790",
+        "id_projet":"23",
+        "nom":"chalenge",
+        "description":"collecte pour soutenir un membre suite à un accident de voiture",
+        "created_at":"10 mai",
+        "updated_at":"30 mai"
+    },
+    {
+        "id":"31",
+        "numéro_unique":"46690",
+        "id_projet":"22",
+        "nom":"naissance",
+        "created_at":"12 mai",
+        "description":"collecte pour soutenir un membre suite à un accouchement",
+        "updated_at":"20 mai"
+    },
+    {
+        "id":"32",
+        "numéro_unique":"46190",
+        "id_projet":"23",
+        "nom":"mariage",
+        "created_at":"9 mai",
+        "description":"collecte pour offrir des cadeaux de mariage un membre ",
+        "updated_at":"26 mai"
+    }
+],
+"participation_collecte":[
+    {
+"id":"34",
+"id_collecte":"2345",
+"id_utilisateur":"2",
+"id_association":"210",
+"numero_paiement":"34587",
+"date_paiement":"12 mai",
+"moyen_paiement":"orange money",
+"montant":"100 000",
+"devise":"FCFA",
+"created_at":"12 juin",
+"updated_at":"20 juin"
+    },
+    {
+      "id":"56",
+      "id_collecte":"3265",
+      "id_utilisateur":"1",
+      "id_association":"340",
+      "numero_paiement":"90823",
+      "date_paiement":"11 mai",
+      "moyen_paiement":"werstern union",
+      "montant":"800",
+      "devise":"euro",
+      "created_at":"10 juin",
+      "updated_at":"26 juin"
+    }
+],
+"RégionADF":[
+  {
+    "id":"42",
+    "id_president":"2",
+    "id_tresorier":"1",
+    "id_rapporteur":"5",
+    "id_conseiller1":"6",
+    "id_conseiller2":"4",
+    "nom":"diaspora",
+    " adresse":"356, rue des pavet",
+    "quartier":"madara",
+    "code postal":"BP:456",
+    "ville":"masco",
+    "pays":"belgique",
+    "region/etat":"europe",
+    "created_at":"12 mars",
+    "updated_at":"20 avril"
+  },
+  {
+    "id":"43",
+    "id_president":"1",
+    "id_tresorier":"8",
+    "id_rapporteur":"7",
+    "id_conseiller1":"9",
+    "id_conseiller2":"11",
+    "nom":"diaspora",
+    "quartier":"7ème",
+    " adresse":"rue des fleures",
+    "code postal":"PB:345",
+    "ville":"paris",
+    "pays":"france",
+    "region/etat":"europe",
+    "created_at":"10 mars",
+    "updated_at":"20 mars"
+  },
+  {
+    "id":"44",
+    "id_president":"3",
+    "id_tresorier":"4",
+    "id_rapporteur":"6",
+    "id_conseiller1":"9",
+    "id_conseiller2":"10",
+    "nom":"gabon",
+    "quartier":"port 2",
+    " adresse":"rue des cases",
+    "code postal":"PB:305",
+    "ville":"port gentil",
+    "pays":"gabon",
+    "region/etat":"est",
+    "created_at":"10 mars",
+    "updated_at":"20 mars"
+  }
+],
+"SectionADF":[
+  {
+    "id":"20",
+    "id_region":"33",
+    "id_section_parente":"45",
+    " id_president":"3",
+    "id_tresorier":"1",
+    "id_rapporteur":"2",
+    "id_conseiller1":"6",
+    "id_conseiller_2":"5",
+    "nom":"amerique",
+    "adresse":"345,world street",
+    "quartier":"marin",
+    "code postal":"BP:456",
+    "ville":"los angeles",
+    "region/etat":"etats-unis",
+    "created_at":"15 janvier",
+    "updated_at":"20 février"
+  },
+  {
+    "id":"21",
+    "id_region":"34",
+    "id_section_parente":"40",
+    " id_president":"4",
+    "id_tresorier":"7",
+    "id_rapporteur":"8",
+    "id_conseiller1":"9",
+    "id_conseiller_2":"3",
+    "nom":"gabon",
+    "adresse":"234 champs émeride",
+    "quartier":"port",
+    "code postal":"PB:345",
+    "ville":"paris",
+    "region/etat":"europe",
+    "pays":"france",
+    "created_at":"11 mai",
+    "updated_at":"23 mai"
+  }
+],
+"CarteADF":[
+  {
+    "id":"1345",
+    "id_regionadf":"23",
+    "annee_carte":"2023",
+    "id_type_carte":"300",
+    "id_utilisateur":"2",
+    "numero_unique":"45687",
+    "numero_paiement":"988763",
+    "montant":"780",
+    "devise":"dollar",
+    "date_paiement":"2 janvier",
+    "moyen_paiement":"werstern union",
+    "date_debut_validité":"2 janvier",
+    "date_fin_validité":"10 janvier",
+    "created_at":"4 novembre",
+    "updated_at":"30 déçembre"
+    },
+    {
+      "id":"1245",
+      "id_regionadf":"22",
+      "annee_carte":"2022",
+      "id_type_carte":"301",
+      "id_utilisateur":"1",
+      "numero_unique":"56987",
+      "numero_paiement":"45987",
+      "montant":"350 000",
+      "devise":"FCFA",
+      "date_paiement":" 3 février",
+      "moyen_paiement":"MTN money",
+      "date_debut_validité":"3 février",
+      "date_fin_validité":" 8 février",
+      "created_at":"25 déçembre",
+      "updated_at":" 10 janvier"
+    }
+],
+"TypeCarteADF":[
+  {
+    "id":"12",
+    "nom":"visa",
+    "created_at":"12 janvier",
+    "updated_at ":"20 mars"
+  },
+  {
+    "id":"17",
+    "nom":"blanche",
+    "created_at":"10 janvier",
+    "updated_at ":"10 mars"
+  },
+  {
+    "id":"10",
+    "nom":"premium",
+    "created_at":"20 mars",
+    "updated_at ": " 4 juin"
+  },
+  {
+    "id":"13",
+    "nom":"visa",
+    "created_at":"3 juillet",
+    "updated_at ":" 20 septembre"
+  }
+],
+"ComiteADF":[
+  {
+    "id":"4",
+    "id_comite_parent":"6",
+    "nom":"route",
+    "description":"construction de la route pricipale conduisant directement chez le chef du quartier",
+    "date_debut":"20 mars",
+    "date_fin":"4 juillet",
+    " id_president":"1",
+    "id_rapporteur":"8",
+    "id_tresorier":"11",
+    "id_conseiller1":"6",
+    " id_conseiller2":"10",
+    "created_at":"3 mars",
+    "updated_at":" 4 juin"
+  },
+  {
+    "id":"7",
+    "id_comite_parent":"3",
+    "nom":"travaux electricite",
+    "description":"restauration des lignes dans le quartier port 2",
+    "date_debut":" 3 septembre",
+    "date_fin":"20 septembre",
+    " id_president":"2",
+    "id_rapporteur":"4",
+    "id_tresorier":"3",
+    "id_conseiller1":"6",
+    " id_conseiller2":"5",
+    "created_at":"20 août",
+    "updated_at":"20 septembre"
+  }
+],
+"utilisateur_comite":[
+  {
+    "id_utilisateur ":"2",
+    "id_comite":"8",
+    "reponsabilité":"administrateur",
+    "date_debut_fonction":"22 mars",
+    "date_fin_fonction":"30 avril",
+    "created_at":"20 mars",
+    "updated_at":"2 juin"
+  },
+  {
+    "id_utilisateur ":"1",
+    "id_comite":"8",
+    "reponsabilité":"administrateur",
+    "date_debut_fonction":" 3 juin",
+    "date_fin_fonction":"",
+    "created_at":"20 mars",
+    "updated_at":" 30 juillet"
+  },
+  {
+    "id_utilisateur ":"3",
+    "id_comite":"7",
+    "reponsabilité":"recenseur",
+    "date_debut_fonction":"",
+    "date_fin_fonction":"",
+    "created_at":"10 mai",
+    "updated_at":"10 septembre"
+  },
+  {
+    "id_utilisateur ":"1",
+    "id_comite":"4",
+    "reponsabilité":"moderateur",
+    "date_debut_fonction":"28 avril",
+    "date_fin_fonction":" 2 juillet",
+    "created_at":"21 avril",
+    "updated_at":" 3 juillet"
+  }
+],
+"Association":[
+  {
+    "id":"890",
+    "nom":"50 ans et plus",
+    "description":"association pour des personnes de 50 ans appartenent au même village et partangeant la même vision",
+    "code postal":"PB:345",
+    "region/etat":"europe",
+    "pays":"malte",
+    "inf_fonakeukeu":{
+      "quartier":"mouie",
+      "numero_telephone":"+336-68-53-30"
+    },
+    "created_at":"10 janvier",
+    "updated_at":"30 février"
+  },
+  {
+    "id":"450",
+    "nom":"mimina",
+    "description":"aasociation des habitants du nord visant la multiplication des écoles ",
+    "code postal":"PB:305",
+    "region/etat":"nord",
+    "pays":"cameroun",
+    "inf_fonakeukeu":{
+      "quartier":"louf",
+      "numero_telephone":"+(237)698-45-98-02"
+    },
+    "created_at":"3 mars",
+    "updated_at":"15 avril"
+  },
+  {
+    "id":"670",
+    "nom":"jeûnes et fier",
+    "description":"association des jeunes habitants des états-unis visant l'harmonie et la solidarité",
+    "code postal":"PB:305",
+    "region/etat":"amerique",
+    "pays":"etats-unis",
+    "inf_fonakeukeu":{
+      "quartier":"street",
+      "numero_telephone":"+(470)889-9876"
+    },
+    "created_at":"12 juin",
+    "updated_at":" 29 juin"
+  }
+],
+"Quartier":[
+  {
+    "id":"34",
+    "id_chef_quartier":"4",
+    "description":"quartier pour les regroupements important",
+    "nom":"mokolo",
+    "coordonnées GPS":"(DMM):41 24.2089,2 10.4352.",
+    "created_at":"10 janvier",
+    "updated_at":"2 mars"
+  },
+  {
+    "id":"32",
+    "id_chef_quartier":"1",
+    "nom":"douè",
+    "description":"quartier de résidence les chefs de quartier",
+    "coordonnées GPS":"(DD):41.40440, 3.15478.",
+    "created_at":"20 janvier",
+    "updated_at":"2 avril"
+  },
+  {
+    "id":"30",
+    "id_chef_quartier":"5",
+    "description":"quartier pour l'organisation des cérémonies de grands objectifs",
+    "nom":" quartier administratif",
+    "coordonnées GPS":"(DMS):41°24'12.2''N2°'26.5''5",
+    "created_at":"13 janvier",
+    "updated_at":" 15 mars"
+  }
+],
+"Recensement":[
+  {
+    "id":"23",
+    "nom":"bou",
+    "prenom":"lio",
+    "email":"blio@gmail.com",
+    "pays":"cameroun",
+    "région/etat":"sud",
+    "ville":"kribi",
+    "quartier":"mokolo",
+    "adresse":"entrée bateau école"
+  },
+  {
+    "id":"24",
+    "nom":"nouie",
+    "prenom":"louis",
+    "email":"nl@gmail.com",
+    "pays":"cameroun",
+    "région/etat":"sud",
+    "ville":"kribi",
+    "quartier":"mokolo",
+    "adresse":"entrée bateau école"
+  },
+  {
+    "id":"25",
+    "nom":"noumo",
+    "prenom":"martin",
+    "email":"nmar@gmail.com",
+    "pays":"cameroun",
+    "région/etat":"sud",
+    "ville":"kribi",
+    "quartier":"mokolo",
+    "adresse":"entrée bateau école"
+  },
+  {
+    "id":"26",
+    "nom":"tatou",
+    "prenom":"nouah",
+    "email":"tatie1@gmail.com",
+    "pays":"cameroun",
+    "région/etat":"sud",
+    "ville":"kribi",
+    "quartier":"mokolo",
+    "adresse":"entrée bateau école"
+  },
+  {
+    "id":"27",
+    "nom":"moussa",
+    "prenom":"balbo",
+    "email":"mousb@gmail.com",
+    "pays":"cameroun",
+    "région/etat":"sud",
+    "ville":"kribi",
+    "quartier":"mokolo",
+    "adresse":"entrée bateau école"
+  }
+]
+}
